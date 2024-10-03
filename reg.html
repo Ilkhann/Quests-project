@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Квесты Белая Мишка</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <span class="header-txt"> <img src="./images/menu-page-img/Q-logo.svg" alt="" class="logo">КВЕСТ <br> Белая Мишка</span>
+                <img src="./images/menu-page-img/Q-menu.svg" alt="" class="menu-btn" onclick="toggleMenu()">
+            </div>
+        </div>
+        <nav id="menu" class="menu">
+            <div class="container">
+                <ul>
+                    <div class="border-menu"></div>
+                    <li><a href="#"><img src="./images/menu-img/Q-home.svg" alt="">Главная</a></li>
+                    <li><a href="#"><img src="./images/menu-img/Q-profile.svg" alt="">Профиль</a></li>
+                    <li><a href="#"><img src="./images/menu-img/Q-my_reserve.svg" alt="">Мои бро́ни</a></li>
+                    <li><a href="#"><img src="./images/menu-img/Q-my_like.svg" alt="">Лайки</a></li>
+                    <li><a href="#"><img src="./images/menu-img/Q-leave.svg" alt="">Выйти с аккаунта</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="auth-card">
+            <div class="auth-headers">
+                    <div class="auth-tab">Автаризация</div>
+                    <div class="auth-tab-active">Регестрация</div>
+                    <div class="auth-x">X</div>
+            </div>
+            <div class="auth-body">
+                <div class="auth-form">
+                    <label for="userName">UserName*</label>
+                    <input type="text" placeholder="UserName" required>
+
+                    <label for="Email">E-mail</label>
+                    <input type="email" placeholder="E-mail">
+
+                    <label for="userName">Password*</label>
+                    <input type="password" placeholder="Password" required>
+
+                    <label for="userName">Repeat Password*</label>
+                    <input type="password" placeholder="Repeat Password" required>
+                    <button type="submit" class="btn-sumbit_reg">Зарегестрироваться</button>
+                    <div class="auth-footer">Авторизуясь через социальные сети, вы соглашаетесь справилами пользования сайтоми сполитикой обработки персональных данных <br> Форма защищена Google reCAPTCHA (политика обработки персональных данных, условия работы)</div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
