@@ -88,7 +88,15 @@ body{
     border-radius: 15px;
     border: var(--Black) 2px solid;
     font-size: 12px;
+    transition: 0.3s ease-in-out;
 }
+
+.filter-buttons button:hover{
+    background-color: var(--Black);
+    color: var(--Light);
+    border: var(--Light) 2px solid;
+}
+
 .filter-buttons .active {
     background-color: var(--Black);
     color: var(--Light);
