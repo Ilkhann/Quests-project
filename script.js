@@ -27,11 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
-           buttons.forEach(function(btn) {
+            buttons.forEach(function(btn) {
                 btn.classList.remove('active')
-           });
+            });
 
-           btn.classList.add('active')
+            button.classList.add('active')
         });
     });
-});
+}); 
